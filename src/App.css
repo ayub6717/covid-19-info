@@ -1,0 +1,35 @@
+* {
+  font-family: 'PT Sans', sans-serif;
+}
+
+.row .col-md-2 > p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  background-color: #117a8b;
+  border-radius: 5px;
+  color: #ddd;
+  font-family: monospace;
+  font-size: 16px;
+}
+
+.App > h2 {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.App > p {
+  text-align: center;
+  padding: 10px;
+  font-style: italic;
+  opacity: 0.5;
+}
+
+.loading1 {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

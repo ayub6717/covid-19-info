@@ -1,0 +1,25 @@
+.card {
+	width: 18rem;
+	height: 120px;
+	text-align: center;
+}
+
+.card > div {
+	text-align: center;
+}
+
+.card .card-header {
+  background: #afc9ce;
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width:991px) {
+	.card {
+		width: 200px;
+	}
+}
